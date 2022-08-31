@@ -13,8 +13,10 @@ public class PesoIdeal {
 
         if (g.equals("mujer")){
              peso=num-120;
-        }else{
+        }else if (g.equals("hombre")){
             peso =num-110;
+        }else{
+            System.out.println("Genero desconocido");
         }
         System.out.println("Su peso ideal es de "+peso+" kilos");
 
