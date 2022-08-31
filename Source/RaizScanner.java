@@ -9,7 +9,7 @@ public class RaizScanner {
         System.out.println("Ingrese un numero");
         int num = e.nextInt();
         double res = Math.sqrt(num);
-        System.out.println("La raiz cuadrada de "+num+" es = "+res);
+        System.out.println("La raiz de "+num+" es = "+res);
 
     }
 }
